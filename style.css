@@ -755,3 +755,12 @@ span {
         opacity: 0.1;
     }
 }
+
+body.fullscreen {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.fullscreen * {
+    display: none;
+}
